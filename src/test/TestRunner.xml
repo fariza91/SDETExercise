@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SdetExecise is running unit testsr">
+
+    <parameter name="key" value="vryk1dqYvFGgu9pqnJYF"/>
+    <parameter name="appUrl" value="https://www.newegg.com/"/>
+    <parameter name="os" value="mac"/>
+    <parameter name="browserName" value="chrome"/>
+
+    <parameter name="browserVersion" value="45.0.2454.93"/>
+
+    <test name="UnitTestForTestSentence">
+        <classes>
+
+            <class name="LongestWordFromSentenceTest"/>  <!--Farzana/>-->
+
+        </classes>
+    </test>
+
+
+
+</suite>
